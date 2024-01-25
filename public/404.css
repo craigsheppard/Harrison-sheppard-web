@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8b7d4; /* Light pink background */
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.error-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.error-code {
+    font-size: 120px;
+    margin: 0;
+    color: #ff66b3; /* Deeper pink for contrast */
+}
+
+.error-message {
+    font-size: 24px;
+    margin: 0;
+    color: #ff99cc; /* Lighter pink */
+}
+
+.home-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff66b3; /* Deeper pink */
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.home-link:hover {
+    background-color: #ff3366; /* Even darker pink on hover */
+}

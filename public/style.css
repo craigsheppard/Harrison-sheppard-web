@@ -1,0 +1,50 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to bottom, #9929bd, #450e59);
+  
+  color: #ff40ff;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+input {
+  width: 300px;             /* Width of the input box */
+  height: 50px;             /* Height of the input box */
+  font-size: 50px;          /* Size of the text inside the input box */
+  background-color: #e392fe;/* Background color of the input box */
+  border: 2px solid #d357fe; /* Border of the input box */
+  color: #874efe;              /* Text color */
+  padding: 10px;            /* Space inside the box, around the text */
+  border-radius: 5px;       /* Rounded corners */
+}
+
+input:hover {
+  border-color: #0056b3;
+  outline: none;  
+}6
+
+input:focus {
+  border-color: #0056b3;
+  outline: none;  
+}
+
+#multiply {
+  background-color: #ff40ff; /* Button color */
+  color: #7b219f;          /* Text color */
+  padding: 15px 32px;    /* Size of the button */
+  font-size: 30px;       /* Font size */
+  border: 3px #1a0a53;         
+  border-radius: 5px;    /* Rounded corners */
+  cursor: pointer;       /* Cursor changes to a hand icon */
+}
+
+#reset {
+  background-color: #ff40ff; /* Button color */
+  color: #7b219f;          /* Text color */
+  padding: 15px 32px;    /* Size of the button */
+  font-size: 30px;       /* Font size */
+  border: 3px #1a0a53;         
+  border-radius: 5px;    /* Rounded corners */
+  cursor: pointer;       /* Cursor changes to a hand icon */
+}
